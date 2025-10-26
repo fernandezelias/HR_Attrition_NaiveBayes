@@ -1,0 +1,13 @@
+# --- Análisis y Machine Learning ---
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+imbalanced-learn==0.12.3
+shap==0.46.0
+
+# --- Visualización ---
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Notebooks en VS Code / Jupyter ---
+jupyter==1.0.0
