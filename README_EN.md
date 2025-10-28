@@ -71,4 +71,4 @@ Overall, Naive Bayes proves to be a **fast, interpretable, and competitive basel
 🔗 LinkedIn: www.linkedin.com/in/eliasfernandez208
 
 ---
-📁 **Repository:** HR_ATTRITION_NAIVEBAYES
+📁 **Repository:** HR_Attrition_NaiveBayes
