@@ -1,10 +1,15 @@
 
-# 📊 Employee Attrition Analysis with Naive Bayes (HR Employee Attrition – Naive Bayes)
+# 📊 Employee Attrition Analysis (HR Employee Attrition)
 
-🇪🇸 También disponible en español: [README.md](README.md)
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![ML](https://img.shields.io/badge/Model-Naive%20Bayes-orange.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-This project applies different variants of the **Naive Bayes** algorithm to predict **employee attrition** using a classic HR dataset.  
-The goal is to compare how distinct probabilistic assumptions impact predictive performance.
+🌐 Disponible en español: [README.md](README.md)
+
+This project applies **supervised Machine Learning** techniques to predict **employee attrition** using a classic HR dataset.  
+The goal is to identify relevant factors associated with voluntary resignation and compare different probabilistic classifiers.
 
 ---
 
@@ -17,50 +22,46 @@ The goal is to compare how distinct probabilistic assumptions impact predictive 
 ---
 
 ## 🎯 Project Objectives
-- Explore demographic and work-related factors influencing attrition.
-- Train and compare three Naive Bayes variants:
-  1. **GaussianNB**
-  2. **BernoulliNB**
-  3. **MultinomialNB**
-- Evaluate the effect of **class imbalance** and analyze class-level metrics.
+- Analyze demographic, job-related, and satisfaction variables related to attrition.  
+- Train and compare **three Naive Bayes variants**:  
+  1. GaussianNB  
+  2. BernoulliNB  
+  3. MultinomialNB  
+- Evaluate the impact of **class imbalance** in binary classification.
 
 ---
 
 ## ⚙️ Workflow
 
-1. **Data Loading and EDA**  
-   - Removal of non-informative variables and correlation analysis.
-   - Inspection of numerical and categorical distributions.
+1. **Data Exploration (EDA)**  
+   - Transformation of categorical variables.  
+   - Correlation and distribution analysis linked to attrition.  
 
 2. **Preprocessing and Modeling**  
-   - One-Hot Encoding and stratified train/test split.
-   - Model training under different probabilistic assumptions.
+   - One-Hot Encoding and stratified train/test split.  
+   - Training of probabilistic classifiers.  
 
 3. **Evaluation and Comparison**  
-   - Metrics: *accuracy*, *precision*, *recall*, *f1-score* and *ROC–AUC*.
-   - Visualization: normalized confusion matrices and ROC curves.
+   - Metrics: *accuracy*, *precision*, *recall*, *f1-score*, ROC-AUC.  
 
 ---
 
 ## 📈 Main Results
 
-| Model | Accuracy | Recall (Attrition) | F1 (Attrition) | ROC–AUC |
-|:--|:--:|:--:|:--:|:--:|
-| GaussianNB | 0.73 | 0.63 | 0.43 | 0.74 |
-| BernoulliNB | 0.82 | 0.32 | 0.37 | 0.72 |
-| MultinomialNB | 0.51 | 0.61 | 0.28 | 0.56 |
-
-- **GaussianNB** achieves the most balanced performance.
-- **BernoulliNB** performs well with binary features but loses sensitivity.
-- **MultinomialNB** is less suitable due to the absence of discrete count-based variables.
+| Model | Accuracy | ROC-AUC | Observation |
+|:--|:--:|:--:|:--|
+| GaussianNB | ~0.73 | ~0.74 | Best overall performance |
+| BernoulliNB | ~0.82 | ~0.72 | Penalized by binary simplification |
+| MultinomialNB | ~0.51 | ~0.56 | Not ideal for non-count features |
 
 ---
 
 ## 🧠 General Conclusions
 
-The results confirm that the **nature of the features** directly affects performance.  
-GaussianNB proves to be the most stable variant for mixed-type data, while MultinomialNB shows clear limitations.
-This project highlights the comparative value of probabilistic variants and the importance of underlying assumptions.
+GaussianNB presents the best trade-off between performance and interpretability.  
+MultinomialNB performs poorly due to the lack of word-frequency-style features, while BernoulliNB loses relevant information by binarizing inputs.
+
+Overall, Naive Bayes proves to be a **fast, interpretable, and competitive baseline** for employee attrition prediction.
 
 ---
 
@@ -70,6 +71,4 @@ This project highlights the comparative value of probabilistic variants and the 
 🔗 LinkedIn: www.linkedin.com/in/eliasfernandez208
 
 ---
-
-📁 **Repository:** HR_Attrition_NaiveBayes
-
+📁 **Repository:** HR_ATTRITION_NAIVEBAYES
