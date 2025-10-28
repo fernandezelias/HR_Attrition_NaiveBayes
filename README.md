@@ -71,4 +71,4 @@ Este proyecto demuestra una aproximación rápida, interpretable y reproducible 
 🔗 LinkedIn: www.linkedin.com/in/eliasfernandez208
 
 ---
-📁 **Repositorio:** HR_ATTRITION_NAIVEBAYES
+📁 **Repository:** HR_Attrition_NaiveBayes
