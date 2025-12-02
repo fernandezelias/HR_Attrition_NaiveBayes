@@ -1,12 +1,12 @@
 
 # 📊 Employee Attrition Analysis (HR Employee Attrition)
 
+🌐 Disponible en: [Español](README.md)
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![ML](https://img.shields.io/badge/Model-Naive%20Bayes-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
-
-🌐 Disponible en: [Español](README.md)
 
 This project applies **supervised Machine Learning** techniques to predict **employee attrition** using a classic HR dataset.  
 The goal is to identify relevant factors associated with voluntary resignation and compare different probabilistic classifiers.
