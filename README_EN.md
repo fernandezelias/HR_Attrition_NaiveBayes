@@ -6,7 +6,7 @@
 ![ML](https://img.shields.io/badge/Model-Naive%20Bayes-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-🌐 Disponible en español: [README.md](README.md)
+🌐 Disponible en: [Español](README.md)
 
 This project applies **supervised Machine Learning** techniques to predict **employee attrition** using a classic HR dataset.  
 The goal is to identify relevant factors associated with voluntary resignation and compare different probabilistic classifiers.
