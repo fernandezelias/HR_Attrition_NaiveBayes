@@ -1,7 +1,7 @@
 
 # 📊 Employee Attrition Analysis (HR Employee Attrition)
 
-🌐 Disponible en: [Español](README.md)
+🌐 Disponible en [Español](README.md)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
