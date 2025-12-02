@@ -1,7 +1,7 @@
 
 # 📊 Análisis de Rotación de Empleados (HR Employee Attrition)
 
-🌐 Available in: [English](README_EN.md)
+🌐 Available in [English](README_EN.md)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
