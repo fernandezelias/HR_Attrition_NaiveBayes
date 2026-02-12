@@ -65,10 +65,17 @@ Overall, Naive Bayes proves to be a **fast, interpretable, and competitive basel
 
 ---
 
-## ✍️ Author
-**Elías Fernández**  
-📧 Contact: fernandezelias86@gmail.com  
-🔗 LinkedIn: [Profile](https://www.linkedin.com/in/eliasfernandez208)
+## 🪪 License
+This project is distributed under the MIT License.  
+See the [LICENSE](LICENSE) file.
 
 ---
-📁 **Repository:** HR_Attrition_NaiveBayes
+
+## ✍️ Author
+**Elías Fernández**
+
+---
+
+## 📫 Contact
+📧 [fernandezelias86@gmail.com](mailto:fernandezelias86@gmail.com)  
+🔗 LinkedIn: [Profile](https://www.linkedin.com/in/eliasfernandez208)
