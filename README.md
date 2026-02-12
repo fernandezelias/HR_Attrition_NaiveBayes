@@ -65,10 +65,17 @@ Este proyecto demuestra una aproximación rápida, interpretable y reproducible 
 
 ---
 
-## ✍️ Autor
-**Elías Fernández**  
-📧 Contacto: fernandezelias86@gmail.com  
-🔗 LinkedIn: [Perfil](https://www.linkedin.com/in/eliasfernandez208)
+## 🪪 Licencia
+Este proyecto se distribuye bajo la licencia MIT.  
+Ver archivo [LICENSE](LICENSE).
 
 ---
-📁 **Repositorio:** HR_Attrition_NaiveBayes
+
+## ✍️ Autor
+**Elías Fernández**
+
+---
+
+## 📫 Contacto
+📧 [fernandezelias86@gmail.com](mailto:fernandezelias86@gmail.com)  
+🔗 LinkedIn: [Perfil](https://www.linkedin.com/in/eliasfernandez208)
