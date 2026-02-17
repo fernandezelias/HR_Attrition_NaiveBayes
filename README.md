@@ -56,7 +56,7 @@ El objetivo es identificar los factores más relevantes que influyen en la decis
 
 ---
 
-## 🧠 Conclusiones generales
+## 🧾 Conclusiones generales
 
 La comparación entre variantes de **Naive Bayes** evidencia cómo distintos supuestos probabilísticos afectan el desempeño al predecir rotación.  
 GaussianNB muestra el mejor equilibrio general, mientras que MultinomialNB resulta menos apropiado para características no basadas en conteo.
