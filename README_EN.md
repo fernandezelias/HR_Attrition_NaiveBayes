@@ -56,7 +56,7 @@ The goal is to identify relevant factors associated with voluntary resignation a
 
 ---
 
-## 🧠 General Conclusions
+## 🧾 General Conclusions
 
 GaussianNB presents the best trade-off between performance and interpretability.  
 MultinomialNB performs poorly due to the lack of word-frequency-style features, while BernoulliNB loses relevant information by binarizing inputs.
